@@ -1,0 +1,145 @@
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.headerContainer{
+  padding: 0;
+  position: relative;
+  height: 200px;
+  background-color: crimson;
+}
+.searchbar{
+  margin-bottom: 100px;
+  margin-left: 25%;
+  text-align: center;
+  width: 800px;
+  height: 35px;
+}
+button {
+  width: 35px;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  border: 0;
+
+  top: 0;
+  right: 0;
+
+}
+
+.MapContainer{
+
+  float: left;
+}
+.vlMap{
+  margin: 5px;
+  float: left;
+  border-left: 1px solid green;
+  height: 500px;
+}
+.YMAC{
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26.999px;
+  margin: 0px 0px 6px;
+  color:hsl(0, 72%, 48%)
+}
+.diPlaceListContainer{
+  width: 629px;
+  height: 344px;
+  float: left;
+}
+.diListingName{
+  display: table-cell;
+  color:hsl(203, 100%, 37%);
+  line-height: 21px;
+  margin: 0px 0px 6px;
+  text-align: left;
+  font-size: 14px;
+}
+.diRecommendVerticalBar{
+float: left;
+}
+.diSponsor{
+  width: 68px;
+  height: 16px;
+  display: inline;
+  color: hsl(0, 0%, 40%);
+  line-height: 18px;
+  font-size: 14px;
+  text-align: left;
+}
+.diMainContainer{
+
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.discore {
+  display: block;
+  font-size: 16px;
+  float: left;
+  overflow: hidden;
+}
+
+.discore-wrap {
+  display: inline-block;
+  position: relative;
+  height: 19px;
+  width: 88%;
+
+}
+
+.discore .discore-wrap {
+  color: #EEBD01;
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.discore .distars-inactive {
+  color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: initial;
+  /* overflow: hidden; */
+}
+
+.diDistance{
+
+  text-align: right;
+  color: hsl(0, 0%, 20%);
+
+  font-size: 12px;
+  line-height: 18px;
+
+}
+.diInterestCatagory{
+  color: hsl(0, 0%, 60%);
+  font-size: 14px;
+  line-height: 17.9999px;
+  text-align: left;
+}
+.diRecommendVerticalBar{
+  box-shadow: rgb(230,230,230) -1px 0px 0px;
+  color: hsl(0, 0%, 20%);
+  font-size: 14px;
+  margin: 0px -15px 0px 0px;
+  padding: 0px 30px 0px 0px;
+}
+.DimoreListing{
+  color: hsl(0, 72%, 48%);
+  font-weight: 700;
+  line-height: 21px;
+  margin: 0px 0px 12px;
+}
+.DiMoreListingTitleOnRightSide{
+
+}

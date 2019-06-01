@@ -1,17 +1,28 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "di-proxy",
+  "description": "> Project description",
+  "author": "di",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "node server/index.js"
   },
   "dependencies": {
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec4/di-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fec4/di-proxy/issues"
+  },
+  "homepage": "https://github.com/fec4/di-proxy#readme"
 }
